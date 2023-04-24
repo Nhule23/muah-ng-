@@ -1,0 +1,83 @@
+body{
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0px;
+padding: 0px;
+background-color: white;
+color: black;
+
+}
+.nav{
+    background-color: brown;
+    color:cornflowerblue;
+    
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+}
+.nav ul li{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    font-size: 1.2rem;
+    transition: background-color 0.2s;
+}
+.nav ul li:hover{
+    background-color: cadetblue;
+}
+
+.them{
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px 30px;
+}
+
+.image-area{
+    background-image: url("imgs/anh.jpg");
+    max-width: 2000px;
+
+    background-size: cover;
+    background-position: center center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    
+
+
+}
+.image-text{
+    background-color:cornflowerblue;
+    color: black;
+    font-size: 3em;
+    max-width: 700px;
+   
+    
+}
+.intro-text{
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 2000px;
+    padding: 20px;
+}
+.single-service{
+    margin-bottom: 100px;
+    
+}
+@media screen and (min-width:700px) {
+    .nav ul{
+        text-align: right;
+    }
+    .nav ul li{
+        border-bottom: 0px;
+        border-left: 2px solid black;
+        display: inline-block;
+    }
+    .single-service{
+        width: 50%;
+        float: left;
+    }
+
+}
+
